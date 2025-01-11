@@ -1,0 +1,3 @@
+WARNING VCP2590 "Undefined port winner in module winner_logic." "C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/breadboard.v" 32 1
+WARNING VCP2590 "Undefined port max_votes in module winner_logic." "C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/breadboard.v" 33 1
+WARNING VCP2597 "Some unconnected ports remain at instance: winner_calc. Module winner_logic has unconnected  port(s) : candidate_numbers, winner_candidate, winner_vote_count." "C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/breadboard.v" 30 1

@@ -1,0 +1,261 @@
+timestamp=1736579059911
+
+[~A]
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/Testbench.v=0*35830*36474
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_adder_4bit.v_full_adder.v_full_adder_tb.v_memory_block_4bit.v_mb_tb.v_ballot_memory_unit.v_voter_memory_unit.v_memory_control_unit.v_memory_control_unit_tb.v_comparator.v_winner_logic.v_breadboard.v_final_breadboard_tb.v=0*305889*310886
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_full_adder.v_full_adder_tb.v_adder_4bit.v_adder_4bit_tb.v_comparator.v_comp_tb.v_winner_logic.v_memory_block_4bit.v_mb_tb.v_ballot_memory_unit.v_voter_memory_unit.v_memory_control_unit.v_memory_control_unit_tb.v_breadboard.v_final_breadboard_tb.v=0*349031*354566
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_full_adder.v_full_adder_tb.v_adder_4bit.v_adder_4bit_tb.v_comparator.v_comp_tb.v_winner_logic.v_winner_logic_tb.v_memory_block_4bit.v_mb_tb.v_ballot_memory_unit.v_ballot_memory_unit_tb.v_voter_memory_unit.v_memory_control_unit.v_memory_control_unit_tb.v_breadboard.v_final_breadboard_tb.v=0*410489*416754
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_full_adder.v_full_adder_tb.v_adder_4bit.v_adder_4bit_tb.v_comparator.v_comp_tb.v_winner_logic.v_winner_logic_tb.v_memory_block_4bit.v_mb_tb.v_ballot_memory_unit.v_voter_memory_unit.v_memory_control_unit.v_memory_control_unit_tb.v_breadboard.v_final_breadboard_tb.v=0*360601*366506
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_full_adder.v_full_adder_tb.v_adder_4bit.v_adder_4bit_tb.v_memory_block_4bit.v_mb_tb.v_ballot_memory_unit.v_voter_memory_unit.v_memory_control_unit.v_memory_control_unit_tb.v_comparator.v_winner_logic.v_breadboard.v_final_breadboard_tb.v=0*338034*343239
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_full_adder.v_full_adder_tb.v_adder_4bit.v_memory_block_4bit.v_mb_tb.v_ballot_memory_unit.v_voter_memory_unit.v_memory_control_unit.v_memory_control_unit_tb.v_comparator.v_winner_logic.v_breadboard.v_final_breadboard_tb.v_adder_4bit_tb.v=0*316444*321665
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v_clock_tb.v_dflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v_comparator.v_winner_logic.v_breadboard.v_final_breadboard_tb.v_mb_tb.v=0*285493*290170
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v=0*17328*18265
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v=0*27143*28682
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v=0*32776*34684
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder.v_memory_control_unit.v=0*59591*62886
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder.v_memory_control_unit.v_memory_control_unit_tb.v=0*67317*71245
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v=0*85065*89278
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v=0*103217*107435
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v_winner_logic.v=0*132041*136626
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v_winner_logic.v_final_breadboard_tb.v=0*237388*242315
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_memory_unit.v_ballot_memory_unit.v_voter_memory_unit.v=0*46115*48514
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_async_counter_4bit.v_tflipflop.v_memory_block_4bit.v_memory_unit.v_ballot_memory_unit.v_voter_memory_unit.v_adder.v=0*52558*55445
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_Testbench.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v_winner_logic.v_final_breadboard_tb.v=0*247297*251919
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v_winner_logic.v_final_breadboard_tb.v=0*256684*261070
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v_clock.v_breadboard.v_comparator.v_memory_block_4bit.v_ballot_memory_unit.v_voter_memory_unit.v_adder_4bit.v_memory_control_unit.v_memory_control_unit_tb.v_full_adder.v_winner_logic.v_final_breadboard_tb.v_clock_tb.v=0*265975*270500
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/memory_block_4bit.v=0*190020*190752
+LastVerilogToplevel=final_breadboard_tb
+ModifyID=60
+Version=74
+c:/My_Designs/evm/evm/src/breadboard.v=0*7599*8365
+c:/My_Designs/evm/evm/src/clock.v=0*9256*9713
+c:/My_Designs/evm/evm/src/d-flipflop.v=0*3097*3559
+c:/My_Designs/evm/evm/src/dflipflop.v=0*10620*11081
+
+[~MFT]
+0=25|0evm.mgf|416754|129757
+1=42|1evm.mgf|1268696|1225218
+3=84|3evm.mgf|827355|791653
+
+[$root]
+A/$root=22|||1*1230790
+BinW64/$root=3*797101
+SLP=3*797216
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216d5364add821879067d5549c4116a8346
+
+[\clock\\ \]
+A/\clock\\ \=22|../src/clock.v|27|1*1899
+BinW64/\clock\\ \=3*1068
+R=../src/clock.v|27
+SLP=3*1635
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|807377f6cc1130b248d17b13fc0e7e817760ecd6049571b423bf868f9d4e0c4c01ab0f6c7a5d9136765435b7308aea9e
+
+[\d-flipflop\\ \]
+A/\d-flipflop\\ \=22|../src/d-flipflop.v|27|1*3123
+BinW64/\d-flipflop\\ \=3*2073
+R=../src/d-flipflop.v|27
+SLP=3*2552
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9c93c7160cb5d07d7bb5c5331e17176805369c711fad369cb7c5c8184890aedbb85511f5c230c6de0c8ecb3f74e6da26
+
+[\dflipflop\\ \]
+A/\dflipflop\\ \=22|../src/dflipflop.v|27|1*4648
+BinW64/\dflipflop\\ \=3*2958
+R=../src/dflipflop.v|27
+SLP=3*3436
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a37c5a6dc53af725f7ea0784d7af278e6558527810d22b8065eee0da54c9ee249830ac2f21fe1a15026647811dcd92ac
+
+[adder_4bit]
+A/adder_4bit=22|../src/adder_4bit.v|24|1*1237078
+BinW64/adder_4bit=3*803131
+R=../src/adder_4bit.v|24
+SLP=3*803251
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|103d779964d3cf292e4640611c80ca9d44d4944d6d2860bac31e36cb876ea2e76a7e89c163440441e9837b078ffbacb2
+
+[adder_4bit_tb]
+A/adder_4bit_tb=22|../src/adder_4bit_tb.v|3|1*1238863
+BinW64/adder_4bit_tb=3*803567
+R=../src/adder_4bit_tb.v|3
+SLP=3*804900
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|07925bb1e4b2d697fd6e1c1330fb0db42f6e78ba1e008945fe43151f540ec0cb44b4ed409cbfd71068e70d9b1b14f2ea
+
+[async_counter_4bit]
+BinW64/async_counter_4bit=3*425713
+R=../src/async_counter_4bit.v|26
+SLP=3*426107
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|e325d3978f11c75d4482f942f07bafd462380f59c1cc172ae819f16339c188667ffaffb4a686c31703ecc57272c627af
+
+[ballot_memory_unit]
+A/ballot_memory_unit=22|../src/ballot_memory_unit.v|3|1*1252528
+BinW64/ballot_memory_unit=3*816392
+R=../src/ballot_memory_unit.v|3
+SLP=3*816924
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ecb194f35a71d0cc98e2d562212d0e464d38b4cf92ba8bf6043a24f63868d8ca90cbc07c4fe51b2160f9809a335def81
+
+[breadboard]
+A/breadboard=22|../src/breadboard.v|3|1*1265973
+BinW64/breadboard=3*825259
+R=../src/breadboard.v|3
+SLP=3*825563
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a62f7248171256f3ed8e0426fff943158
+
+[clock]
+A/clock=22|../src/clock.v|3|1*1231324
+BinW64/clock=3*797284
+R=../src/clock.v|3
+SLP=3*797866
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b5908d396eb110753762aa81bb2baad00398cd46c72508c6986086344230f6da
+
+[clock_tb]
+A/clock_tb=22|../src/clock_tb.v|3|1*1232191
+BinW64/clock_tb=3*798091
+R=../src/clock_tb.v|3
+SLP=3*798956
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|df6859ba5ed6290421d82d470988d446c0355745e6fce71a4458a137beafd89dc46fbb5063e9db9092992ccde458464a
+
+[comparator_4bit]
+A/comparator_4bit=22|../src/comparator.v|27|1*1240434
+BinW64/comparator_4bit=3*805756
+R=../src/comparator.v|27
+SLP=3*806814
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|44222087b98fd98eab2be89f60e7f2251334b171cd2ebd19f2d766f3ee12c5aa2f0a06c8d69e73098468f2967e92d1b6
+
+[comparator_4bit_tb]
+A/comparator_4bit_tb=22|../src/comp_tb.v|3|1*1242529
+BinW64/comparator_4bit_tb=3*807582
+R=../src/comp_tb.v|3
+SLP=3*809036
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|44222087b98fd98eab2be89f60e7f225cacb2656adebdbedd84a44cea4122d529ffdc1f54bbeb51cb40a44b217870249
+
+[dflipflop]
+A/dflipflop=22|../src/dflipflop.v|3|1*1233315
+BinW64/dflipflop=3*799375
+R=../src/dflipflop.v|3
+SLP=3*799785
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3a67d30d807d773d6fff614f8e657a86030c5f4de3ffa3c97f58c5528f1d79135765de87b59cdd9597ef2004dba4c214
+
+[final_breadboard_tb]
+A/final_breadboard_tb=22|../src/final_breadboard_tb.v|3|1*1268696
+BinW64/final_breadboard_tb=3*825875
+R=../src/final_breadboard_tb.v|3
+SLP=3*827355
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|198ffb1aecdc2ac2a0ead0d59e3ef130d0f97bf1f6197f0989c569f3c2b1de20fc807e617be2307eed2b46bb7c288d22
+
+[full_adder]
+A/full_adder=22|../src/full_adder.v|2|1*1234473
+BinW64/full_adder=3*799987
+R=../src/full_adder.v|2
+SLP=3*800462
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e3767a49c65c3390fff29976b86c9b673
+
+[full_adder_tb]
+A/full_adder_tb=22|../src/full_adder_tb.v|3|1*1235535
+BinW64/full_adder_tb=3*800685
+R=../src/full_adder_tb.v|3
+SLP=3*802140
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a6d9544d463e51205ff7fdbcf61f84f4cb32de88913de833873bfe5b99a36b0b95cd349bf888baee83a3e289ff8e2e2b
+
+[memory_block_4bit]
+A/memory_block_4bit=22|../src/memory_block_4bit.v|29|1*1248240
+BinW64/memory_block_4bit=3*813253
+R=../src/memory_block_4bit.v|29
+SLP=3*814080
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cf8906758bc3ae275b1841badc4f85bc7d795d7d5af0bc9de9404724fe22b7ee8b0c7251ba68c390416ac8cf6a04bb19
+
+[memory_block_4bit_tb]
+A/memory_block_4bit_tb=22|../src/mb_tb.v|3|1*1250981
+BinW64/memory_block_4bit_tb=3*814507
+R=../src/mb_tb.v|3
+SLP=3*815680
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cf8906758bc3ae275b1841badc4f85bcb4e41f9c9a2b5c2525d561d9b448fb50d4812b8a5735340cbf25388dc8385fb1
+
+[memory_control_unit]
+A/memory_control_unit=22|../src/memory_control_unit.v|3|1*1258290
+BinW64/memory_control_unit=3*820449
+R=../src/memory_control_unit.v|3
+SLP=3*821416
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|82c17787c1f5b44a06f4393748447cc730eb6f8c4f2add3bdccae7a1c0d20e8d9b30f1cf56a08abe28f0ae91f40f456f
+
+[memory_control_unit_tb]
+A/memory_control_unit_tb=22|../src/memory_control_unit_tb.v|3|1*1263799
+BinW64/memory_control_unit_tb=3*822256
+R=../src/memory_control_unit_tb.v|3
+SLP=3*823842
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|82c17787c1f5b44a06f4393748447cc7a7cd92febaec02a1f75142215f2f59eaecb53eafd9b32eb2a5499737df815dd2
+
+[memory_unit]
+BinW64/memory_unit=3*88314
+R=../src/memory_unit.v|27
+SLP=3*88435
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b34c20dbde1f103a532462c55e6b8d0b2ad095b6e80465877f3acc759c911669ec14299fe138df209f9a62327cb4a19f
+
+[t_flipflop]
+A/t_flipflop=22|../src/tflipflop.v|28|1*702209
+BinW64/t_flipflop=3*426314
+R=../src/tflipflop.v|28
+SLP=3*426810
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bee7505c306c8e5b34375e5c0310965d37d5bc38f687ccabdf2ff10e80c5731d45f14a199edabc5a13045118a472c2a6
+
+[tb_ballot_memory_unit]
+A/tb_ballot_memory_unit=22|../src/ballot_memory_unit_tb.v|3|1*1255012
+BinW64/tb_ballot_memory_unit=3*817271
+R=../src/ballot_memory_unit_tb.v|3
+SLP=3*818542
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|10a1c41539bb17250af3db13c79c6a12a8ed816b5549413f50f658a7cd2146dadd6c6dd374798c3aa7016cc31c6b5353
+
+[tb_winner_logic]
+A/tb_winner_logic=22|../src/winner_logic_tb.v|3|1*1246788
+BinW64/tb_winner_logic=3*811547
+R=../src/winner_logic_tb.v|3
+SLP=3*812475
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|6ef13bb7c053f647501b942b3510ccbe8311f8bc80b2243c0c753ed90b86b16de44f7e18e3011cd872d5a87c4124c204
+
+[testbench]
+A/testbench=22|../src/Testbench.v|3|1*732126
+BinW64/testbench=3*443833
+R=../src/Testbench.v|3
+SLP=3*444903
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d791320ae80a7218da5c57edb3c5a19e84292
+
+[voter_memory_unit]
+A/voter_memory_unit=22|../src/voter_memory_unit.v|24|1*1256544
+BinW64/voter_memory_unit=3*819558
+R=../src/voter_memory_unit.v|24
+SLP=3*820140
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|6f73c7fb1a310b1fd566e43450de4a25da6a4c920c84e1995addfa48fe0ec6b5d20197c09ca48fad4e3b9b96f58aa146
+
+[winner_logic]
+A/winner_logic=22|../src/winner_logic.v|3|1*1244212
+BinW64/winner_logic=3*809977
+R=../src/winner_logic.v|3
+SLP=3*810924
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2c2ba4b6d6ca444a7ed14b0375d3a56c5d09914d1cb0bff9b44c0ca46800b58d4d984363ddf5ad4efc5d894350f09370
+
+[~U]
+$root=12|0*405187|
+\clock\\ \=12|0*1536||0x10
+\d-flipflop\\ \=12|0*2874||0x10
+\dflipflop\\ \=12|0*4244||0x10
+adder_4bit=12|0*406603|
+adder_4bit_tb=12|0*406849||0x10
+async_counter_4bit=12|0*235064|
+ballot_memory_unit=12|0*408420|
+breadboard=12|0*409872|
+clock=12|0*405641|
+clock_tb=12|0*405831||0x10
+comparator_4bit=12|0*407038|
+comparator_4bit_tb=12|0*407284||0x10
+dflipflop=12|0*405999|
+final_breadboard_tb=12|0*410214||0x10
+full_adder=12|0*406212|
+full_adder_tb=12|0*406428||0x10
+memory_block_4bit=12|0*407944|
+memory_block_4bit_tb=12|0*408214||0x10
+memory_control_unit=12|0*409244|
+memory_control_unit_tb=12|0*409620||0x10
+memory_unit=12|0*51494||0x10
+t_flipflop=12|0*235321|
+tb_ballot_memory_unit=12|0*408735||0x10
+tb_winner_logic=12|0*407744||0x10
+testbench=12|0*245264||0x10
+voter_memory_unit=12|0*408969|
+winner_logic=12|0*407470|

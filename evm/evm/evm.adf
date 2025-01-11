@@ -1,0 +1,64 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=evm
+[Library]
+evm=.\evm\evm.lib
+[$LibMap$]
+evm=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/clock.v=-1
+/clock_tb.v=-1
+/dflipflop.v=-1
+/full_adder.v=-1
+/full_adder_tb.v=-1
+/adder_4bit.v=-1
+/adder_4bit_tb.v=-1
+/comparator.v=-1
+/comp_tb.v=-1
+/winner_logic.v=-1
+/winner_logic_tb.v=-1
+/memory_block_4bit.v=-1
+/mb_tb.v=-1
+/ballot_memory_unit.v=-1
+/ballot_memory_unit_tb.v=-1
+/voter_memory_unit.v=-1
+/memory_control_unit.v=-1
+/memory_control_unit_tb.v=-1
+/breadboard.v=-1
+/final_breadboard_tb.v=-1
+[Files.Data]
+.\src\clock.v=Verilog Source Code
+.\src\clock_tb.v=Verilog Source Code
+.\src\dflipflop.v=Verilog Source Code
+.\src\full_adder.v=Verilog Source Code
+.\src\full_adder_tb.v=Verilog Source Code
+.\src\adder_4bit.v=Verilog Source Code
+.\src\adder_4bit_tb.v=Verilog Source Code
+.\src\comparator.v=Verilog Source Code
+.\src\comp_tb.v=Verilog Source Code
+.\src\winner_logic.v=Verilog Source Code
+.\src\winner_logic_tb.v=Verilog Source Code
+.\src\memory_block_4bit.v=Verilog Source Code
+.\src\mb_tb.v=Verilog Source Code
+.\src\ballot_memory_unit.v=Verilog Source Code
+.\src\ballot_memory_unit_tb.v=Verilog Source Code
+.\src\voter_memory_unit.v=Verilog Source Code
+.\src\memory_control_unit.v=Verilog Source Code
+.\src\memory_control_unit_tb.v=Verilog Source Code
+.\src\breadboard.v=Verilog Source Code
+.\src\final_breadboard_tb.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
