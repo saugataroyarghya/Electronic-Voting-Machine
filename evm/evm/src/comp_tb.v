@@ -13,6 +13,7 @@ module comparator_4bit_tb;
     comparator_4bit uut (
         .A(A),
         .B(B),
+		.enable(1),
         .A_equal_B(A_equal_B),
         .A_greater_B(A_greater_B),
         .A_less_B(A_less_B)

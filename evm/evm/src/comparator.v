@@ -26,7 +26,8 @@
 
 module comparator_4bit (
     input [3:0] A,       // 4-bit input A
-    input [3:0] B,       // 4-bit input B
+    input [3:0] B,// 4-bit input B
+	input enable,
     output A_equal_B,    // Output for A = B
     output A_greater_B,  // Output for A > B
     output A_less_B      // Output for A < B
@@ -41,18 +42,18 @@ module comparator_4bit (
     assign x0 = ~(A[0] ^ B[0]); // A0 == B0
 
     // A=B condition
-    assign A_equal_B = x3 & x2 & x1 & x0;
+    assign A_equal_B = enable & x3 & x2 & x1 & x0;
 
     // A>B condition
-    assign A_greater_B = (A[3] & ~B[3]) |
+    assign A_greater_B = enable & ((A[3] & ~B[3]) |
                          (x3 & A[2] & ~B[2]) |
                          (x3 & x2 & A[1] & ~B[1]) |
-                         (x3 & x2 & x1 & A[0] & ~B[0]);
+                         (x3 & x2 & x1 & A[0] & ~B[0]));
 
     // A<B condition
-    assign A_less_B = (~A[3] & B[3]) |
+    assign A_less_B = enable & ((~A[3] & B[3]) |
                       (x3 & ~A[2] & B[2]) |
                       (x3 & x2 & ~A[1] & B[1]) |
-                      (x3 & x2 & x1 & ~A[0] & B[0]);
+                      (x3 & x2 & x1 & ~A[0] & B[0]));
 
 endmodule

@@ -1,8 +1,8 @@
 [Files List]
 C:/Aldec/Active-HDL-Student-Edition/vlib/std/src/standard.vhd=S
-C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/dflipflop.v=S
 C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/full_adder.v=S
-C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/memory_block_4bit.v=S
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/comparator.v=S
 C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/adder_4bit.v=S
-C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/ballot_memory_unit.v=S
-C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/ballot_memory_unit_tb.v=S
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/memory_control_unit.v=S
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/clock.v=S
+C:/Users/Saugata/Desktop/DSD Project/evm/evm/src/breadboard.v=S

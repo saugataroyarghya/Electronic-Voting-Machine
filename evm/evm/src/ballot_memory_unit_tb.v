@@ -1,79 +1,82 @@
 `timescale 1ps / 1ps
 
-module tb_ballot_memory_unit;
-    // Testbench inputs
-    reg [3:0] candidate_number;  // Candidate number input
-    reg vote_cast;               // Signal to cast a vote
-    reg clk;                     // Clock signal
+module ballot_memory_unit_tb;
 
-    // Testbench outputs
-    wire [3:0] candidate_out;    // Output: Stored candidate number
-    wire [3:0] vote_count;       // Output: Vote count for the candidate
+    // Testbench signals
+    reg [3:0] candidate_number; // Input candidate number
+    reg vote_cast;              // Signal to indicate a vote is cast
+    reg clk;                    // Clock signal
+    reg initializer;            // Signal to initialize/reset the module
+    wire [3:0] candidate_out;   // Output candidate number
+    wire [3:0] vote_count;      // Output vote count
 
     // Instantiate the ballot_memory_unit
     ballot_memory_unit uut (
         .candidate_number(candidate_number),
         .vote_cast(vote_cast),
         .clk(clk),
+        .initializer(initializer),
         .candidate_out(candidate_out),
         .vote_count(vote_count)
     );
 
-    // Clock generation
+    // Clock generation (50% duty cycle)
+    always #5 clk = ~clk;
+
+    // Testbench logic
     initial begin
+        // Initialize signals
         clk = 0;
-        forever #5 clk = ~clk; // Clock with 10ps period
-    end
-
-    // Test sequence
-    initial begin
-        // Initialize inputs
-        candidate_number = 4'b0000;
         vote_cast = 0;
+        initializer = 0;
+        candidate_number = 4'b0000;
 
-        // Test case 1: Cast one vote for candidate 3
+        // Display header for test output
+        $display("Time\tInit\tVote\tCand_in\tCand_out\tVote_count");
+        $display("--------------------------------------------------");
+
+        // Test case 1: Initializing the module
+        initializer = 1;        // Set initializer high
+        candidate_number = 4'b1010; // Set candidate number to 10
+        #10;                    // Wait for one clock cycle
+        initializer = 0;        // Deactivate initializer
         #10;
-        candidate_number = 4'b0011; // Candidate 3
+        $display("%0d\t%b\t%b\t%b\t%b\t%b", $time, initializer, vote_cast, candidate_number, candidate_out, vote_count);
+
+        // Test case 2: Casting a vote
+        vote_cast = 1;          // Set vote_cast high
+        #10;                    // Wait for one clock cycle
+        vote_cast = 0;          // Deactivate vote_cast
+        #10;
+        $display("%0d\t%b\t%b\t%b\t%b\t%b", $time, initializer, vote_cast, candidate_number, candidate_out, vote_count);
+
+        // Test case 3: Cast multiple votes
         vote_cast = 1;
+        #10; // First vote
+        vote_cast = 0;
         #10;
-        vote_cast = 0; // Stop casting votes
-        #10;
-        $display("Test Case 1: Candidate = %b, Votes = %b", candidate_out, vote_count);
-        $display("Expected: Candidate = 3, Votes = 1");
-
-        // Test case 2: Cast two more votes for candidate 3
-        #10;
-        vote_cast = 1; // Cast vote 2
-        #10;
-        vote_cast = 1; // Cast vote 3
-        #10;
-        vote_cast = 0; // Stop casting votes
-        #10;
-        $display("Test Case 2: Candidate = %b, Votes = %b", candidate_out, vote_count);
-        $display("Expected: Candidate = 3, Votes = 3");
-
-        // Test case 3: Switch to candidate 1 and cast one vote
-        #10;
-        candidate_number = 4'b0001; // Candidate 1
         vote_cast = 1;
+        #10; // Second vote
+        vote_cast = 0;
         #10;
-        vote_cast = 0; // Stop casting votes
-        #10;
-        $display("Test Case 3: Candidate = %b, Votes = %b", candidate_out, vote_count);
-        $display("Expected: Candidate = 1, Votes = 1");
+        $display("%0d\t%b\t%b\t%b\t%b\t%b", $time, initializer, vote_cast, candidate_number, candidate_out, vote_count);
 
-        // Test case 4: Cast two votes for candidate 2
+        // Test case 4: Reinitializing the module
+        initializer = 1;
+        candidate_number = 4'b1100; // Change candidate number to 12
+        #10; // Wait for one clock cycle
+        initializer = 0;
         #10;
-        candidate_number = 4'b0010; // Candidate 2
-        vote_cast = 1; // Cast vote 1
-        #10;
-        vote_cast = 1; // Cast vote 2
-        #10;
-        vote_cast = 0; // Stop casting votes
-        #10;
-        $display("Test Case 4: Candidate = %b, Votes = %b", candidate_out, vote_count);
-        $display("Expected: Candidate = 2, Votes = 2");
+        $display("%0d\t%b\t%b\t%b\t%b\t%b", $time, initializer, vote_cast, candidate_number, candidate_out, vote_count);
 
-        $stop; // End simulation
+        // Test case 5: Cast votes after reinitialization
+        vote_cast = 1;
+        #10; // Cast one vote
+        vote_cast = 0;
+        #10;
+        $display("%0d\t%b\t%b\t%b\t%b\t%b", $time, initializer, vote_cast, candidate_number, candidate_out, vote_count);
+
+        // Finish the simulation
+        $finish;
     end
 endmodule

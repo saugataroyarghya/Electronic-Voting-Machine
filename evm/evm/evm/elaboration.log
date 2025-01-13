@@ -1,18 +1,18 @@
-Active-HDL 15.0.261.9132 2025-01-11 13:04:25
+Active-HDL 15.0.261.9132 2025-01-14 00:45:55
 
 Elaboration top modules:
-Verilog Module                tb_ballot_memory_unit
+Verilog Module                breadboard
 
 
 -------------------------------------------------------------------------------------------
 Verilog Module          | Library | Info | Compiler Version          | Compilation Options
 -------------------------------------------------------------------------------------------
-tb_ballot_memory_unit   | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
-ballot_memory_unit      | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+breadboard              | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+clock                   | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+memory_control_unit     | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+comparator_4bit         | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 adder_4bit              | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
-memory_block_4bit       | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 full_adder              | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
-dflipflop               | evm     |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 -------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ evm                     | None
 -------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+tb_ballot_memory_unit tb_ballot_memory_unit
+Simulation Options: asim -O5 +access +r +m+breadboard breadboard
 
 
 The performance of simulation is reduced. Version Student Edition

@@ -7,6 +7,6 @@ module full_adder (
     output cout     // Carry-out
 );
     // Logic for sum and carry-out
-    assign sum = a ^ b ^ cin;     // XOR gates for sum
+    assign sum =  a ^ b ^ cin;     // XOR gates for sum
     assign cout = (a & b) | (b & cin) | (a & cin); // OR gate combining AND gates for carry-out
 endmodule
